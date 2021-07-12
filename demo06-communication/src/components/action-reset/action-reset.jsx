@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 
 const ActionReset = (props) => {
+    // La props 'appear' -> Donnée recu du parent
+    // La props 'onResetAction' -> Méthode recu, pour que l'enfant envoye un event
     const {appear, onResetAction} = props;
 
     return (

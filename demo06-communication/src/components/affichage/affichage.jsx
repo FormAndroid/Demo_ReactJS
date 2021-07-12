@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Affichage = (props) => {
-    // Valeur recu du parent via les props
+    // Récupation des valeurs envoyer depuis le parent
     const { contenu, initial } = props;
 
     return (
