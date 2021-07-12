@@ -26,6 +26,8 @@ const ActionIncrement = (props) => {
     );
 }
 
+// L'utilisation de la "loop" dans les defaultProps permet d'eviter de devoir tester
+//  si la props est initialiser avec d'executer l'event.
 ActionIncrement.defaultProps = {
     onAddIncr: () => {} // loop
 }
